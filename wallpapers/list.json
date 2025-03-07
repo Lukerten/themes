@@ -1686,6 +1686,48 @@
     "sha256": "1jxyixcazs0dw2nq7aiblcm24vc8b0l787rb95s9kwkp7xf3xh1f"
   },
   {
+    "name": "pixel-city",
+    "id": "do7fMdw",
+    "ext": "jpeg",
+    "sha256": "1gmvhg7rv4b90mqk1xnfh02l46cly6lps2qlbjz17y4hxwcw9m4d"
+  },
+  {
+    "name": "pixel-cyberpunk-blue",
+    "id": "1dJH2Ar",
+    "ext": "jpeg",
+    "sha256": "0mz76dr5xrrj2g7r66z690pkm1d3kszx7kqr9wcfz0dp80jnf0fp"
+  },
+  {
+    "name": "pixel-dawn",
+    "id": "FOsxf3D",
+    "ext": "jpeg",
+    "sha256": "0dwavw8dchvikwl4vh4b1yr93jzvrh0avwszqn0pgk2ajb36pmq5"
+  },
+  {
+    "name": "pixel-mountain",
+    "id": "vjcGd4w",
+    "ext": "jpeg",
+    "sha256": "0k9lcipw60mla6gnna5cwhvz1kc9p7i4mpis7c5vq0wyp38ksbjd"
+  },
+  {
+    "name": "pixel-night",
+    "id": "VvfEvXX",
+    "ext": "jpeg",
+    "sha256": "0lgas3yxkkzcsr88j6jrsydr7k6iz2li4raph003bq6p2vcfb2p0"
+  },
+  {
+    "name": "pixel-skyline",
+    "id": "y6UI7CD",
+    "ext": "png",
+    "sha256": "0diy4i4yj9i8ja2nypaqrz1kb4v6cwpv6im32wb3jrazf671i7mz"
+  },
+  {
+    "name": "pixel-vaporwave",
+    "id": "JB5bQFu",
+    "ext": "jpeg",
+    "sha256": "1pwgqm4q2j8gfixqjl3d7imrpmgpl2y1k4gpkgsah8bc7zcf4zsc"
+  },
+  {
     "name": "pixel-waterfall",
     "id": "UF9Glxz",
     "ext": "png",
