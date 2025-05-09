@@ -3,13 +3,11 @@
 
 # Input file
 list_file="$PWD"
-if [ -f "$list_file/list.json" ]; then
-    list_file="$list_file/list.json"
-elif [ -f "$list_file"/pkgs/wallpapers/list.json ]; then
-    list_file="$list_file/pkgs/wallpapers/list.json"
+if [ -f "$PWD"/wallpapers/list.json ]; then
+    list_file="$PWD/wallpapers/list.json"
 else
-  printf "[ERROR]%s\n" "Could not find database\n"
-  exit 1
+    printf "[ERROR]%s\n" "Could not find database\n"
+    exit 1
 fi
 
 # Check for duplicate "name"
@@ -30,17 +28,17 @@ if [ -n "$duplicate_sha256" ]; then
         jq -r --arg sha "$sha" '.[] | select(.sha256 == $sha) | .name' "$list_file" | while IFS= read -r name; do
             printf "  - name: %s\n" "$name"
         done
-    done <<< "$duplicate_sha256"
+    done <<<"$duplicate_sha256"
 else
     printf "[INFO]%s\n" "No duplicate sha256 values found."
 fi
 
-jq 'sort_by(.name)' "$list_file" > temp.json && mv temp.json "$list_file"
-jq 'map({name, id, ext, sha256})' "$list_file" > temp.json && mv temp.json "$list_file"
+jq 'sort_by(.name)' "$list_file" >temp.json && mv temp.json "$list_file"
+jq 'map({name, id, ext, sha256})' "$list_file" >temp.json && mv temp.json "$list_file"
 
 # List all Wallpaper names
 wallpapers=$(jq -r '.[] | .name' "$list_file")
 printf "[INFO]%s\n" "Available Wallpapers:"
 for wallpaper in $wallpapers; do
-  printf "  - %s\n" "$wallpaper"
+    printf "  - %s\n" "$wallpaper"
 done

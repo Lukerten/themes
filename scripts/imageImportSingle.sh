@@ -16,17 +16,15 @@ sha256=$(nix-prefetch-url https://i.imgur.com/"$id"."$ext")
 # Check if ./list.json exists, else try ./pkgs/wallpapers/list.json
 # If neither exists, create a new list.json
 image_path="$PWD"
-if [ -f "$image_path/list.json" ]; then
-    image_path="$image_path/list.json"
-elif [ -f "$image_path"/pkgs/wallpapers/list.json ]; then
-    image_path="$image_path/pkgs/wallpapers/list.json"
+if [ -f "$PWD"/wallpapers/list.json ]; then
+    list_file="$PWD/wallpapers/list.json"
 else
-    echo "[]" > "$image_path/list.json"
+    echo "[]" >"$image_path/list.json"
 fi
 printf "[INFO]  %s %s\n" "Using list.json in:" "$image_path"
 
 # Ensure that "name" and "sha256" are unique
-if jq -e --arg name "$name" '.[] | select(.name == $name)' "$image_path" > /dev/null; then
+if jq -e --arg name "$name" '.[] | select(.name == $name)' "$image_path" >/dev/null; then
     printf "[ERROR] %s\n""An entry with the name '$name' already exists." >&2
     exit 1
 fi
@@ -48,7 +46,7 @@ new_entry=$(jq -n \
     '{"name": $name, "ext": $ext, "id": $id, "sha256": $sha256}')
 
 printf "Adding Entry %s to %s\n" "$name" "$image_path"
-jq --argjson new_entry "$new_entry" '. += [$new_entry]' "$image_path" > temp.json && mv temp.json "$image_path"
-jq 'sort_by(.name)' "$image_path" > temp.json && mv temp.json "$image_path"
-jq 'map({name, id, ext, sha256})' "$image_path" > temp.json && mv temp.json "$image_path"
+jq --argjson new_entry "$new_entry" '. += [$new_entry]' "$image_path" >temp.json && mv temp.json "$image_path"
+jq 'sort_by(.name)' "$image_path" >temp.json && mv temp.json "$image_path"
+jq 'map({name, id, ext, sha256})' "$image_path" >temp.json && mv temp.json "$image_path"
 printf "Successfully added %s to %s\n" "$name" "$image_path"
