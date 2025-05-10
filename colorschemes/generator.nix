@@ -18,16 +18,6 @@
         };
       };
     };
-
-    # Get the actual image path from the source derivation
-    # First check if the source is a hex color, then check if it's null,
-    # otherwise construct the path to the image file
-    imagePath =
-      if (isHexColor source)
-      then source
-      else if source == null
-      then "#000000" # Fallback to black when source is null
-      else "${source}/${name}.${builtins.getAttr name (lib.importJSON ../wallpapers/list.json).ext}";
   in
     pkgs.runCommand "colorscheme-${name}" {
       # __contentAddressed = true;
@@ -45,7 +35,7 @@
         if (isHexColor source)
         then "color hex"
         else "image"
-      } --config ${config} -j hex -t "scheme-$type" "${imagePath}" > "$out/$type.json"
+      } --config ${config} -j hex -t "scheme-$type" "${source}" > "$out/$type.json"
       done
     '';
 in

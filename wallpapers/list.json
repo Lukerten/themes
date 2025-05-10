@@ -66,18 +66,6 @@
     "sha256": "1wyfhic691x2bvbnxckrb89clnx1vmd8zzads9l31fclh8q4vird"
   },
   {
-    "name": "adwaia-l-red",
-    "path": "images/adwaia-l-red.jpeg",
-    "ext": "jpeg",
-    "sha256": "1mly7bd2ikc44ya190lwby1lv98wvmdjr1cp91z3axgdz845hga0"
-  },
-  {
-    "name": "adwaita-d-red",
-    "ext": "jpeg",
-    "sha256": "066qm1ysa8xnyfixy5fkp07sfqcckqr4zvxc561mxxbh2ph82h2a",
-    "path": null
-  },
-  {
     "name": "aenami-15steps",
     "path": "images/aenami-15steps.jpeg",
     "ext": "jpeg",
@@ -576,12 +564,6 @@
     "sha256": "1nwv7v0fzvfdcyqrczc68jbvvsc7cqirmbhsax7mr835b8r2vz8l"
   },
   {
-    "name": "aestetic-deer",
-    "ext": "jpeg",
-    "sha256": "0b3gd0chwizmvmaima3nf85s0cfj3iqir8sv54mbfy5a9wwic18q",
-    "path": null
-  },
-  {
     "name": "ai-anime-black-white-gold",
     "path": "images/ai-anime-black-white-gold.jpeg",
     "ext": "jpeg",
@@ -708,12 +690,6 @@
     "sha256": "1bv4vailp8wasg8rrdjmrwr6ignw4v26zf6aw688z8qvp583c2kv"
   },
   {
-    "name": "blue-midnight-mountain",
-    "ext": "jpeg",
-    "sha256": "10p2pxxaql5q6hhp7k4gs6qhk0hpxq50jawf9nfcdjgchj6jdmc8",
-    "path": null
-  },
-  {
     "name": "blue-orange-abstract",
     "path": "images/blue-orange-abstract.png",
     "ext": "png",
@@ -738,12 +714,6 @@
     "sha256": "0fq75hbzyidbimhm208hwrjdjpyivmz15adlw9y7qrm7xc1qb0kq"
   },
   {
-    "name": "car-on-mars",
-    "ext": "jpeg",
-    "sha256": "0lxvpl1n34asfm8b0nfb1nm6rshi2ka1d8zhg0np2v0g2b10xsxj",
-    "path": null
-  },
-  {
     "name": "cartoon-city-scifi",
     "path": "images/cartoon-city-scifi.jpeg",
     "ext": "jpeg",
@@ -754,18 +724,6 @@
     "path": "images/cartoon-mountain.jpeg",
     "ext": "jpeg",
     "sha256": "0rgl64hyk103cdghf2qbkl7dxcgf1760y6kpyqm9d3936hy1i54m"
-  },
-  {
-    "name": "cartoon-spaceship-1",
-    "ext": "jpeg",
-    "sha256": "0zb299zsswfj9jnzpnsknni3rwjifa89gxf2y0x35f0naalpc3wb",
-    "path": null
-  },
-  {
-    "name": "cartoon-spaceship-2",
-    "ext": "jpeg",
-    "sha256": "1yz1zdm91h30flwhv1d6i9lay3vsgcri696xc4ichcshr9zvngp7",
-    "path": null
   },
   {
     "name": "castle-mountains",
@@ -912,12 +870,6 @@
     "sha256": "03j7yi2x5vrfdp557bngidi8jafsv9ck9v5mqc2rjgnqpvfbjl50"
   },
   {
-    "name": "cyberpunk-desolate-streets",
-    "ext": "jpeg",
-    "sha256": "1d6idm9lz1rrbk9vbhq6iwdmxsfchrd7z55vqk1aw75q6qbgm599",
-    "path": null
-  },
-  {
     "name": "cyberpunk-no-future",
     "path": "images/cyberpunk-no-future.jpeg",
     "ext": "jpeg",
@@ -954,12 +906,6 @@
     "sha256": "0dacpm2j96sbiv4vv8difh64a13qhdgk1f9093nnbrpzxn0510jc"
   },
   {
-    "name": "desolate-solar-lands",
-    "ext": "jpeg",
-    "sha256": "007xrr1h5vvd93niijl2c64y6lh9x3kgqzb3ivpjx4bwmlgkblbp",
-    "path": null
-  },
-  {
     "name": "eclipse-moon-red",
     "path": "images/eclipse-moon-red.jpeg",
     "ext": "jpeg",
@@ -970,18 +916,6 @@
     "path": "images/elden-ring.jpeg",
     "ext": "jpeg",
     "sha256": "1b78krnb03d91609pqj4xx8h0xd74pig4wpsbql01n1qkh83l89w"
-  },
-  {
-    "name": "explore-green",
-    "ext": "jpeg",
-    "sha256": "1j3cw30qkqdpfnv68cpg0hbbf0ymcc3yz19143sww13axphhnhm1",
-    "path": null
-  },
-  {
-    "name": "explore-red",
-    "ext": "jpeg",
-    "sha256": "1c9l43gzw9qljwx4qmk5i5n7hv57zqyyqkmvf2r4al656rrb922p",
-    "path": null
   },
   {
     "name": "eye-of-sauron-tree",
@@ -1170,12 +1104,6 @@
     "sha256": "1jxmsv3m6qv0k63kvfmzqamws4z9xmw005ndci7gr9vf5ilh4hds"
   },
   {
-    "name": "forrest-deer-morning",
-    "ext": "jpeg",
-    "sha256": "0jhb9kb4ys23pknr5z9y3yxwd6myg35b92z819scsv1kc1l0mbiv",
-    "path": null
-  },
-  {
     "name": "fox-forest-green",
     "path": "images/fox-forest-green.jpeg",
     "ext": "jpeg",
@@ -1218,12 +1146,6 @@
     "sha256": "0zark8spgc71b2n3frhq8hvqfmx6gkrf3v13xcqi82753xgycvms"
   },
   {
-    "name": "hyprland-silly-cat",
-    "ext": "jpeg",
-    "sha256": "1msk02r3v2x3kqygh73l55p113mhlicqp97l434i36dak6yxkxia",
-    "path": null
-  },
-  {
     "name": "i400-starcitizen",
     "path": "images/i400-starcitizen.jpeg",
     "ext": "jpeg",
@@ -1264,12 +1186,6 @@
     "path": "images/japanese-temple.jpeg",
     "ext": "jpeg",
     "sha256": "0sx9yivn7zgk4xcb628ns4vmjkc7lag9q5fiw2z874wv7qr6v0f4"
-  },
-  {
-    "name": "jig-jig-street",
-    "ext": "jpeg",
-    "sha256": "0y8xb409wcw49bybcjmcifiv1mf2if1i3swr1r45f3q5d5fcyj06",
-    "path": null
   },
   {
     "name": "journey-cyberpunk",
@@ -1402,12 +1318,6 @@
     "path": "images/milky-way-mountains.jpeg",
     "ext": "jpeg",
     "sha256": "0kmb4shlc76m98ch9yaq9mpvjlrdfgi1mkxmgx70y3jqll9jfb8k"
-  },
-  {
-    "name": "mini-kombini-night",
-    "ext": "jpeg",
-    "sha256": "0wl858wpplv3gigwh6cdw7hj1r4jpby3ndyy6srw5kk761zq4yq1",
-    "path": null
   },
   {
     "name": "minimal-acrylic-blue-pink",
@@ -1566,22 +1476,10 @@
     "sha256": "11qaybypqn7gn1mrvhf8zvas75ysx5xgdcizb1njjmhvgfcnpvqy"
   },
   {
-    "name": "neon-car-pink-cyberpunk",
-    "ext": "jpeg",
-    "sha256": "1i96d9358fp8pzs4vs07hwa6w6xvl8aapxi6ip9i67c0z926a5z2",
-    "path": null
-  },
-  {
     "name": "neon-city",
     "path": "images/neon-city.jpeg",
     "ext": "jpeg",
     "sha256": "1pdhljiydrwnhpqaryspbxjfmyrcvx672v6a1lf52v5vfnr78sdg"
-  },
-  {
-    "name": "neon-city-pink-cyberpunk",
-    "ext": "jpeg",
-    "sha256": "13xdv960jsqn15ijz13qggy4bcywbipc7pcxa7nb0dnzdwbq4v3y",
-    "path": null
   },
   {
     "name": "neon-forrest",
@@ -1606,12 +1504,6 @@
     "path": "images/night-storefront.jpeg",
     "ext": "jpeg",
     "sha256": "1yvdqbca92raa6k6aw9ykr5722qwf21gjy87hpzgbyy8vq4ngx0c"
-  },
-  {
-    "name": "nightfall-moon",
-    "ext": "jpeg",
-    "sha256": "0hfh0ic9ihga6w92qyvk5lmj3lslj4qa7i4l2q3i6szl6wvalxky",
-    "path": null
   },
   {
     "name": "nixos",
@@ -1824,12 +1716,6 @@
     "sha256": "1wxhvqvnrayk6vza205c7y49ynv32xpn3m521hy10a3x6xvzwli3"
   },
   {
-    "name": "red-green-spaceship",
-    "ext": "jpeg",
-    "sha256": "05l3dlgxmaczrk9nfmijqar8x8wmj0sj42nx8vljvk2h72rvk242",
-    "path": null
-  },
-  {
     "name": "red-japanese-street",
     "path": "images/red-japanese-street.jpeg",
     "ext": "jpeg",
@@ -1932,12 +1818,6 @@
     "sha256": "0qk6sq088ghjq1v5cl5w49hydblslig6d88m0m3d0hslyr7xk4w8"
   },
   {
-    "name": "snowy-rocket-launch",
-    "ext": "jpeg",
-    "sha256": "1si83lhlx0qzsi0v4ncfm3mwdyx9xl6a822p0q0lp750acb0b3m0",
-    "path": null
-  },
-  {
     "name": "space-meteor",
     "path": "images/space-meteor.jpeg",
     "ext": "jpeg",
@@ -1984,12 +1864,6 @@
     "path": "images/the-code.png",
     "ext": "png",
     "sha256": "0iqs962ffy1fq531v224m6yj9di0wnxyp63bf9d1y98gvjw0jzcz"
-  },
-  {
-    "name": "tokyo-streets-night",
-    "ext": "jpeg",
-    "sha256": "1rcamjsdgvjyf3vvvmzkxvra9ch4wl9kd3b07gn2psz0bc9f0jra",
-    "path": null
   },
   {
     "name": "towers-ice",
