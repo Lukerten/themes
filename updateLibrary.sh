@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env nix-shell
+#!nix-shell -i bash -p jq curl
 
 # Script to update wallpaper library by generating list.json with all images from ./images folder
 
@@ -8,10 +9,11 @@ output_file="./wallpapers/list.json"
 # Ensure the directory exists
 mkdir -p ./wallpapers
 
-echo "[" >$output_file
+# Create a temporary array to hold all image entries
+temp_array=()
 
 # Find all image files, sort them, and process each one
-find ./images -type f | sort | while read file; do
+while read -r file; do
     # Get just the filename
     filename=$(basename "$file")
     # Get extension without the dot
@@ -19,20 +21,19 @@ find ./images -type f | sort | while read file; do
     # Get name without extension
     name="${filename%.*}"
 
-    # Add entry to JSON file
-    echo "  {" >>$output_file
-    echo "    \"name\": \"$name\"," >>$output_file
-    echo "    \"path\": \"images/$filename\"," >>$output_file
-    echo "    \"ext\": \"$ext\"" >>$output_file
+    # Create JSON object for this file
+    entry=$(jq -n \
+        --arg name "$name" \
+        --arg path "images/$filename" \
+        --arg ext "$ext" \
+        '{name: $name, path: $path, ext: $ext}')
 
-    # Check if this is the last file to avoid trailing comma
-    if [ "$(find ./images -type f | sort | tail -n1)" = "$file" ]; then
-        echo "  }" >>$output_file
-    else
-        echo "  }," >>$output_file
-    fi
-done
+    # Add to our array
+    temp_array+=("$entry")
 
-echo "]" >>$output_file
+done < <(find ./images -type f | sort)
 
-echo "Wallpaper list updated at $output_file"
+# Join all entries and write to the output file
+printf '%s\n' "${temp_array[@]}" | jq -s '.' >"$output_file"
+
+printf "Wallpaper list updated at %s\n" "$output_file"
