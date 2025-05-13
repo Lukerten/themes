@@ -4,18 +4,15 @@
     inherit ((fromJSON (readFile ./flake.lock)).nodes) nixpkgs;
   in
     import (fetchTree nixpkgs.locked) {}),
-}: let
-  importSingle = pkgs.writeShellScriptBin "importSingle" ./scripts/imageImportSingle.sh;
-  listImages = pkgs.writeShellScriptBin "listImages" ./scripts/imageList.sh;
-  previewImage = pkgs.writeShellScriptBin "previewImage" ./scripts/imagePreview.sh;
-in
-  pkgs.mkShell {
-    hardeningDisable = ["all"];
-    name = "theme-dev-shell";
-    buildInputs = [
-      importSingle
-      listImages
-      previewImage
-    ];
-    shellHook = "";
-  }
+}:
+pkgs.mkShell {
+  hardeningDisable = ["all"];
+  name = "themes";
+  buildInputs = [
+  ];
+  shellHook = ''
+    printf "\e[1;32m%s\e[0m\n" "Happy Hacking!";
+    printf ""
+    printf "\e[1;32m%s\e[0m\n" "To update the wallpaper library, run \`updateLibrary.sh\`";
+  '';
+}

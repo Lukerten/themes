@@ -10,18 +10,23 @@
     "ext": "jpeg"
   },
   {
-    "name": "abstract-dragon-2",
-    "path": "images/abstract-dragon-2.jpeg",
-    "ext": "jpeg"
-  },
-  {
     "name": "abstract-dragon",
     "path": "images/abstract-dragon.jpeg",
     "ext": "jpeg"
   },
   {
+    "name": "abstract-dragon-2",
+    "path": "images/abstract-dragon-2.jpeg",
+    "ext": "jpeg"
+  },
+  {
     "name": "abstract-lion",
     "path": "images/abstract-lion.jpeg",
+    "ext": "jpeg"
+  },
+  {
+    "name": "abstract-purple-blue",
+    "path": "images/abstract-purple-blue.jpeg",
     "ext": "jpeg"
   },
   {
@@ -32,11 +37,6 @@
   {
     "name": "abstract-purple-blue-circle",
     "path": "images/abstract-purple-blue-circle.jpeg",
-    "ext": "jpeg"
-  },
-  {
-    "name": "abstract-purple-blue",
-    "path": "images/abstract-purple-blue.jpeg",
     "ext": "jpeg"
   },
   {
@@ -65,6 +65,11 @@
     "ext": "jpeg"
   },
   {
+    "name": "aenami-a-quiet-mind",
+    "path": "images/aenami-a-quiet-mind.jpeg",
+    "ext": "jpeg"
+  },
+  {
     "name": "aenami-airport",
     "path": "images/aenami-airport.jpeg",
     "ext": "jpeg"
@@ -72,11 +77,6 @@
   {
     "name": "aenami-all-i-need",
     "path": "images/aenami-all-i-need.jpeg",
-    "ext": "jpeg"
-  },
-  {
-    "name": "aenami-a-quiet-mind",
-    "path": "images/aenami-a-quiet-mind.jpeg",
     "ext": "jpeg"
   },
   {
@@ -425,13 +425,13 @@
     "ext": "jpeg"
   },
   {
-    "name": "aenami-waiting",
-    "path": "images/aenami-waiting.jpeg",
+    "name": "aenami-wait",
+    "path": "images/aenami-wait.jpeg",
     "ext": "jpeg"
   },
   {
-    "name": "aenami-wait",
-    "path": "images/aenami-wait.jpeg",
+    "name": "aenami-waiting",
+    "path": "images/aenami-waiting.jpeg",
     "ext": "jpeg"
   },
   {
@@ -710,6 +710,11 @@
     "ext": "jpeg"
   },
   {
+    "name": "cyberpunk-city",
+    "path": "images/cyberpunk-city.jpeg",
+    "ext": "jpeg"
+  },
+  {
     "name": "cyberpunk-city-2",
     "path": "images/cyberpunk-city-2.jpeg",
     "ext": "jpeg"
@@ -717,11 +722,6 @@
   {
     "name": "cyberpunk-city-3",
     "path": "images/cyberpunk-city-3.jpeg",
-    "ext": "jpeg"
-  },
-  {
-    "name": "cyberpunk-city",
-    "path": "images/cyberpunk-city.jpeg",
     "ext": "jpeg"
   },
   {
@@ -875,13 +875,13 @@
     "ext": "jpeg"
   },
   {
-    "name": "ffxiv-stormblood-kugane-2",
-    "path": "images/ffxiv-stormblood-kugane-2.jpeg",
+    "name": "ffxiv-stormblood-kugane",
+    "path": "images/ffxiv-stormblood-kugane.jpeg",
     "ext": "jpeg"
   },
   {
-    "name": "ffxiv-stormblood-kugane",
-    "path": "images/ffxiv-stormblood-kugane.jpeg",
+    "name": "ffxiv-stormblood-kugane-2",
+    "path": "images/ffxiv-stormblood-kugane-2.jpeg",
     "ext": "jpeg"
   },
   {
@@ -1115,16 +1115,6 @@
     "ext": "jpeg"
   },
   {
-    "name": "minimalism-blue-red-orange",
-    "path": "images/minimalism-blue-red-orange.jpeg",
-    "ext": "jpeg"
-  },
-  {
-    "name": "minimalist-purple-desert",
-    "path": "images/minimalist-purple-desert.png",
-    "ext": "png"
-  },
-  {
     "name": "minimal-japanese-house",
     "path": "images/minimal-japanese-house.png",
     "ext": "png"
@@ -1145,6 +1135,11 @@
     "ext": "jpeg"
   },
   {
+    "name": "minimal-skyline",
+    "path": "images/minimal-skyline.jpeg",
+    "ext": "jpeg"
+  },
+  {
     "name": "minimal-skyline-blue",
     "path": "images/minimal-skyline-blue.jpeg",
     "ext": "jpeg"
@@ -1160,14 +1155,19 @@
     "ext": "jpeg"
   },
   {
-    "name": "minimal-skyline",
-    "path": "images/minimal-skyline.jpeg",
-    "ext": "jpeg"
-  },
-  {
     "name": "minimal-skyline-pink",
     "path": "images/minimal-skyline-pink.jpeg",
     "ext": "jpeg"
+  },
+  {
+    "name": "minimalism-blue-red-orange",
+    "path": "images/minimalism-blue-red-orange.jpeg",
+    "ext": "jpeg"
+  },
+  {
+    "name": "minimalist-purple-desert",
+    "path": "images/minimalist-purple-desert.png",
+    "ext": "png"
   },
   {
     "name": "monstercat-vol-1",
