@@ -1,5 +1,15 @@
 [
   {
+    "name": "4k-gradient-landscape",
+    "path": "images/4k-gradient-landscape.jpg",
+    "ext": "jpg"
+  },
+  {
+    "name": "4k-waves",
+    "path": "images/4k-waves.jpg",
+    "ext": "jpg"
+  },
+  {
     "name": "abstract-blue-red",
     "path": "images/abstract-blue-red.jpeg",
     "ext": "jpeg"
@@ -18,6 +28,11 @@
     "name": "abstract-dragon",
     "path": "images/abstract-dragon.jpeg",
     "ext": "jpeg"
+  },
+  {
+    "name": "abstract-gradient-grainy",
+    "path": "images/abstract-gradient-grainy.jpg",
+    "ext": "jpg"
   },
   {
     "name": "abstract-lion",
@@ -900,6 +915,11 @@
     "ext": "jpeg"
   },
   {
+    "name": "fleedaburbr81",
+    "path": "images/fleedaburbr81.jpg",
+    "ext": "jpg"
+  },
+  {
     "name": "forest-blue-purple-deer",
     "path": "images/forest-blue-purple-deer.jpeg",
     "ext": "jpeg"
@@ -945,6 +965,16 @@
     "ext": "png"
   },
   {
+    "name": "glowing_deer",
+    "path": "images/glowing_deer.jpg",
+    "ext": "jpg"
+  },
+  {
+    "name": "gradient-beige-pink",
+    "path": "images/gradient-beige-pink.jpg",
+    "ext": "jpg"
+  },
+  {
     "name": "great-wave-garados",
     "path": "images/great-wave-garados.jpeg",
     "ext": "jpeg"
@@ -975,9 +1005,19 @@
     "ext": "jpeg"
   },
   {
+    "name": "island-blue-purple",
+    "path": "images/island-blue-purple.jpeg",
+    "ext": "jpeg"
+  },
+  {
     "name": "japanese-boulevard",
     "path": "images/japanese-boulevard.jpeg",
     "ext": "jpeg"
+  },
+  {
+    "name": "japanese-Itsukushima",
+    "path": "images/japanese-Itsukushima.jpg",
+    "ext": "jpg"
   },
   {
     "name": "japanese-room-ocean",
@@ -1470,6 +1510,11 @@
     "ext": "jpeg"
   },
   {
+    "name": "scifi_canal",
+    "path": "images/scifi_canal.jpg",
+    "ext": "jpg"
+  },
+  {
     "name": "scifi-city-gray",
     "path": "images/scifi-city-gray.jpeg",
     "ext": "jpeg"
@@ -1518,6 +1563,11 @@
     "name": "space-meteor",
     "path": "images/space-meteor.jpeg",
     "ext": "jpeg"
+  },
+  {
+    "name": "space-purple",
+    "path": "images/space-purple.jpg",
+    "ext": "jpg"
   },
   {
     "name": "space-red",
